@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro dos Usuários</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h2>Formulário de Cadastro</h2>
+    <form id="cadastroForm">
+        <label for="id">ID:</label>
+        <input type="text" id="id" required><br><br>
+
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" required><br><br>
+
+        <label for="dataNascimento">Data de Nascimento:</label>
+        <input type="date" id="dataNascimento" required><br><br>
+
+        <label for="time">Time:</label>
+        <input type="text" id="time" required><br><br>
+
+        <button type="submit">Cadastrar</button>
+        <button id="consultarBtn">Consultar Usuário</button>
+        <button id="deletarBtn">Deletar Usuário</button>
+        <ul id="usuariosList"></ul>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
